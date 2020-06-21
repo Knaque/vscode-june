@@ -1,0 +1,45 @@
+{
+  "name": "june-theme",
+  "displayName": "June",
+  "publisher": "Knaque",
+  "description": "A combination personal/pride month theme for VSCode.",
+  "version": "1.0.1",
+  "license": "CC0-1.0",
+  "icon": "icon.png",
+  "homepage": "https://github.com/Knaque/vscode-june",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Knaque/vscode-june"
+  },
+
+  "galleryBanner": {
+    "color": "#0c090d",
+    "theme": "dark"
+  },
+
+  "scripts": {
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Generated theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.10",
+    "typescript": "^2.2.1",
+    "vscode-theme-generator": "*"
+  }
+}
