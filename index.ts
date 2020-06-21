@@ -21,13 +21,13 @@ const colorSet: IColorSet = {
     storage: '#f15946',
     string: '#53b3cb',
     stringEscape: '#e01a4f',
-    comment: '#48453A',
+    comment: '#666452',
     cssTag: '#ffffc7',
     markdownQuote: '#f9c22e'
   },
   ui: {
     cursor: '#ffffc7',
-    invisibles: '#48453A', // might want to tweak
+    invisibles: '#666452',
     guide: '#292623',
     currentFindMatchHighlight: '#400D1D',
     selectionHighlight: '#292623',

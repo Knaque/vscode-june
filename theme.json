@@ -90,7 +90,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#48453A",
+        "foreground": "#666452",
         "fontStyle": "italic"
       }
     },
@@ -320,7 +320,7 @@
       "name": "C# preprocessor",
       "scope": "source.cs meta.preprocessor",
       "settings": {
-        "foreground": "#48453A"
+        "foreground": "#666452"
       }
     },
     {
@@ -383,7 +383,7 @@
     "editor.lineHighlightBorder": "#FFFFFF1a",
     "editorLink.activeForeground": "#4F7FFF",
     "editor.rangeHighlightBackground": "#FFFFFF0d",
-    "editorWhitespace.foreground": "#48453A",
+    "editorWhitespace.foreground": "#666452",
     "editorIndentGuide.background": "#292623",
     "editorWidget.background": "#0e0a0f",
     "editorHoverWidget.background": "#0e0a0f",
