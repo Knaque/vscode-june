@@ -35,7 +35,7 @@ const colorSet: IColorSet = {
     activeLinkForeground: '#4F7FFF'
   },
   terminal: {
-    black: '#292623',
+    black: '#666452',
     red: '#e01a4f',
     green: '#218380',
     yellow: '#f9c22e',
@@ -43,7 +43,7 @@ const colorSet: IColorSet = {
     magenta: '#C210E0',
     cyan: '#49CC9E',
     white: '#ffffc7',
-    brightBlack: '#292623',
+    brightBlack: '#666452',
     brightRed: '#e01a4f',
     brightGreen: '#218380',
     brightYellow: '#f9c22e',
