@@ -4,53 +4,53 @@ import { generateTheme, IColorSet } from 'vscode-theme-generator';
 const colorSet: IColorSet = {
   type: 'dark',
   base: {
-    background: '#0c090d',
-    foreground: '#ffffc7',
-    color1: '#53b3cb',
-    color2: '#e01a4f',
-    color3: '#218380',
-    color4: '#f9c22e'
+    background: '#141017', // black
+    foreground: '#FCFCFC', // white
+    color1: '#53B5CB', // blue
+    color2: '#E01A4F', // red
+    color3: '#218380', // green
+    color4: '#F9CC2E' // yellow
   },
   syntax: {
-    boolean: '#e01a4f',
-    function: '#f9c22e',
-    functionCall: '#f9c22e',
-    identifier: '#f15946',
-    keyword: '#e01a4f',
-    number: '#e01a4f',
-    storage: '#f15946',
-    string: '#53b3cb',
-    stringEscape: '#e01a4f',
-    comment: '#666452',
-    cssTag: '#ffffc7',
-    markdownQuote: '#f9c22e'
+    boolean: '#E01A4F', // red
+    function: '#F9CC2E', // yellow
+    functionCall: '#F9CC2E', // yellow
+    identifier: '#F15946', // orange
+    keyword: '#E01A4F', // red
+    number: '#E01A4F', // red
+    storage: '#F15946', // orange
+    string: '#53B5CB', // blue
+    stringEscape: '#E01A4F', // red
+    comment: '#6A676C', // 95 black-white
+    cssTag: '#FCFCFC', // white
+    markdownQuote: '#F9CC2E' // yellow
   },
   ui: {
-    cursor: '#ffffc7',
-    invisibles: '#666452',
-    guide: '#292623',
-    currentFindMatchHighlight: '#400D1D',
-    selectionHighlight: '#292623',
-    selection: '#292623',
-    activeLinkForeground: '#4F7FFF'
+    cursor: '#FCFCFC', // white
+    invisibles: '#6A676C', // 95 black-white
+    guide: '#302C32', // 31 black-white
+    currentFindMatchHighlight: '#4C3E1C', // 63 black-yellow
+    selectionHighlight: '#302C32', // 31 black-white
+    selection: '#302C32', // 31 black-white
+    activeLinkForeground: '#4F82FF' // custom blue
   },
   terminal: {
-    black: '#666452',
-    red: '#e01a4f',
+    black: '#6A676C', // 95 black-white
+    red: '#E01A4F',
     green: '#218380',
-    yellow: '#f9c22e',
-    blue: '#4F7FFF',
-    magenta: '#C210E0',
-    cyan: '#49CC9E',
-    white: '#ffffc7',
-    brightBlack: '#666452',
-    brightRed: '#e01a4f',
+    yellow: '#F9CC2E',
+    blue: '#4F82FF', // custom blue
+    magenta: '#F914FA', // custom magenta
+    cyan: '#49CC9E', // custom cyan
+    white: '#FCFCFC',
+    brightBlack: '#6A676C', // 95 black-white
+    brightRed: '#E01A4F',
     brightGreen: '#218380',
-    brightYellow: '#f9c22e',
-    brightBlue: '#4F7FFF',
-    brightMagenta: '#C210E0',
-    brightCyan: '#49CC9E',
-    brightWhite: '#ffffc7'
+    brightYellow: '#F9CC2E',
+    brightBlue: '#4F82FF', // custom blue
+    brightMagenta: '#F914FA', // custom magenta
+    brightCyan: '#49CC9E', // custom cyan
+    brightWhite: '#FCFCFC'
   }
 };
 
